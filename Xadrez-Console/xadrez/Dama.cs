@@ -62,7 +62,7 @@ namespace xadrez
             }
 
             //ABAIXO
-            pos.definirValores(posicao.Linha + 1, posicao.Coluna + 1);
+            pos.definirValores(posicao.Linha + 1, posicao.Coluna);
             while (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
